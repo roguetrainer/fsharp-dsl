@@ -24,4 +24,7 @@ Dive into the code and see how F\# makes building powerful, expressive languages
 
 Link to the Examples:  
 https://github.com/roguetrainer/fsharp-dsl  
-\#Fsharp \#FunctionalProgramming \#DSL \#ComputationExpressions \#SoftwareArchitecture \#FinTech \#dotnet
+
+Julia is highly effective for creating both internal and external DSLs, largely due to its exceptional metaprogramming capabilities, which allow developers to manipulate the language itself at runtime or compile time. https://github.com/roguetrainer/fsharp-dsl/blob/main/DSL-IN-JULIA.md. 
+
+#Fsharp #FunctionalProgramming #DSL #ComputationExpressions #SoftwareArchitecture #FinTech #dotnet #DomainSpecificLanguage #QuantumComputing #QSharp #Julia #Metaprogramming 
