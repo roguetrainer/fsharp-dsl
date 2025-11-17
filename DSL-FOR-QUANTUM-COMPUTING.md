@@ -4,7 +4,7 @@ This document explores how Domain-Specific Languages (DSLs), a concept central t
 
 ## **1\. Q\# as a Quantum DSL**
 
-**Q\# (Q sharp)**, the quantum programming language developed by Microsoft, is a prime example of an internal DSL designed specifically for one domain: **writing and simulating quantum algorithms**.[https://github.com/StationQ/Liquid](https://github.com/StationQ/Liquid)
+**Q\# (Q sharp)**, the quantum programming language developed by Microsoft, is a prime example of an internal DSL designed specifically for one domain: **writing and simulating quantum algorithms**.
 
 It is a DSL because it introduces specialized syntax and types that directly model the physics of quantum information:
 
@@ -19,6 +19,8 @@ Q\# encourages thinking about quantum programs as algorithms, combining stateful
 The concept of a quantum DSL was pioneered at Microsoft Research's Station Q with the **LIQUi|\> (Language Integrated Quantum Operations)** project.
 
 LIQUi|\> was a modular software platform developed to aid in the exploration and simulation of quantum algorithms. It functioned as a DSL that allowed researchers to define quantum circuits, render them graphically, and execute them using appropriate simulators. It laid the architectural groundwork for the modern Q\# language and the Quantum Development Kit (QDK).
+
+[https://github.com/StationQ/Liquid](https://github.com/StationQ/Liquid)
 
 ## **3\. The Influence of F\# (A Tale of Two Languages)**
 
@@ -40,3 +42,6 @@ To get started with this specialized DSL, Microsoft provides several key resourc
 * **Quantum Katas:** These are self-paced tutorials and open-source programming exercises based on the martial arts concept of "kata" (a form for practice). They teach the fundamentals of quantum computing and Q\# programming simultaneously. Each kata presents a small quantum challenge, which you solve by filling in the missing Q\# code, and a testing framework validates your solution for immediate feedback.
 
 [The Liquid Simulator](https://www.youtube.com/watch?v=_iDDtj6UhO0) provides context on the historical software architecture that preceded Q\#.
+
+## See also
+* [QuEra DSLs for quantum computing](https://github.com/roguetrainer/fsharp-dsl/blob/main/QUERA-DSL-QUANTUM-COMPUTING.md)
