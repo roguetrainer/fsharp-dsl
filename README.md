@@ -2,6 +2,7 @@
 
 This repository contains examples and materials demonstrating the power of F\# for creating concise, type-safe, and highly expressive Domain-Specific Languages (DSLs).
 
+![DSLs](DSL.png)
 
 ## Features of F# for DSLs
 
@@ -43,3 +44,4 @@ To start developing in F\#, you'll need the .NET SDK and an editor:
 ## See also:
 * [DSL-FOR-QUANTUM-COMPUTING](https://github.com/roguetrainer/fsharp-dsl/blob/main/DSL-FOR-QUANTUM-COMPUTING.md) - Domain-Specific Languages (DSLs), a concept central to the F# ecosystem, are essential in the specialized field of quantum computing.
 * [functional-programming-in-llm-interactions](https://github.com/roguetrainer/functional-programming-in-llm-interactions) - Why functional programming languages, such as F#, are a natural fit for organizing LLM interactions. 
+* [DSLs in Julia](https://github.com/roguetrainer/fsharp-dsl/blob/main/DSL-IN-JULIA.md) - Julia is highly effective for creating both internal and external DSLs, largely due to its exceptional metaprogramming capabilities, which allow developers to manipulate the language itself at runtime or compile time.
