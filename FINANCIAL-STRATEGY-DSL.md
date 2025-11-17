@@ -40,3 +40,16 @@ let mySimpleStrategy = strategy {
 ```
 
 In this example, keywords like `strategy`, `let!`, `buy`, `when`, `sellAll`, and the `**AND**` operator are all part of the custom DSL, giving a non-programmer (like a financial analyst) a highly readable and domain-specific way to express complex logic.
+
+## File`StrategyDSL.fs`
+
+File`StrategyDSL.fs` contains the F# code. This file will define the `TradeInstruction` type (our AST for the DSL) and the `StrategyBuilder` class using Computation Expressions.
+
+The file `StrategyDSL.fs` contains the complete implementation
+
+1.  **Domain Definition (The AST):** We use a Discriminated Union (`TradeInstruction`) to model the possible actions (`Buy`, `Sell`, `Wait`, `Log`, `Sequence`). This is the type-safe structure our DSL builds.
+2.  **The Builder:** The `StrategyBuilder` class defines methods like `Combine` and custom operations like `buy` and `log`. This is the part *you* write to customize the language syntax.
+3.  **The DSL:** The `simpleTrendStrategy` block demonstrates the fluent syntax this builder enables.
+4.  **The Interpreter:** The `executeStrategy` and `executeInstruction` functions show how easy it is to process the generated list of instructions using F#'s powerful pattern matching.
+
+Let me know if you'd like to dive deeper into the `StrategyBuilder` methods or add another DSL example, like a simple configuration parser!
