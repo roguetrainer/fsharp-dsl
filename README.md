@@ -2,6 +2,9 @@
 
 This repository contains examples and materials demonstrating the power of F\# for creating concise, type-safe, and highly expressive Domain-Specific Languages (DSLs).
 
+
+## Features of F# for DSLs
+
 | Feature | Description | DSL Benefit |
 | :---- | :---- | :---- |
 | **Computation Expressions** | A language feature (often called the 'Builder Pattern') that lets you **redefine the meaning of control flow** keywords (like return, let\!, yield) within a custom block. | The primary mechanism for giving a DSL its **fluent, imperative, and custom syntax** (e.g., the query, async, or a custom strategy block). |
@@ -35,3 +38,8 @@ To start developing in F\#, you'll need the .NET SDK and an editor:
 
 1. **FinancialStrategyDSL:** Demonstrates the use of Computation Expressions to create a fluent, step-by-step trading strategy builder. *(See StrategyDSL.fs for the implementation.)*  
 2. **ConfigurationDSL:** Uses Discriminated Unions and Pattern Matching to model and validate application configuration rules.
+
+
+## See also:
+* [DSL-FOR-QUANTUM-COMPUTING](https://github.com/roguetrainer/fsharp-dsl/blob/main/DSL-FOR-QUANTUM-COMPUTING.md) - Domain-Specific Languages (DSLs), a concept central to the F# ecosystem, are essential in the specialized field of quantum computing.
+* [functional-programming-in-llm-interactions](https://github.com/roguetrainer/functional-programming-in-llm-interactions) - Why functional programming languages, such as F#, are a natural fit for organizing LLM interactions. 
